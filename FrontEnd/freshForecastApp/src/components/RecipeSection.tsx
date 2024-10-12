@@ -29,7 +29,7 @@ const ProduceSection = () => {
         </p>
 
         <button className="bg-[#2A3340] text-[#EC8516] w-[200px] rounded-md font-medium my-3 mx-auto py-3">
-          Get Started
+          My Produce
         </button>
       </div>
     </div>

@@ -16,7 +16,7 @@ const BottomNav = () => {
       </div>
       <div className="flex flex-col items-center">
         <AiOutlineFileText size={24} />
-        <span>My Produce</span>
+        <span>My Account</span>
       </div>
     </div>
   );
