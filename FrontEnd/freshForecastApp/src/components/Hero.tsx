@@ -1,4 +1,5 @@
 import FreshProduceImage from "../assets/pic1.jpg";
+import { ReactTyped } from "react-typed"; 
 
 const Hero = () => {
   return (
@@ -16,12 +17,12 @@ const Hero = () => {
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             OPTIMIZE YOUR FOOD THROUGH AI
           </h1>
-          <p>
+          <p className="py-4">
             Use our app to scan your produce and quickly assess its quality. 
             Receive personalized recipe suggestions based on your ingredients' 
             freshness, allowing you to reduce food waste while enjoying delicious meals.
           </p>
-          <button className="bg-[#2A3340] text-[#EC8516] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+          <button className="bg-[#2A3340] text-[#EC8516] w-[200px] rounded-md font-medium my-4 mx-auto md:mx-0 py-3">
             Get Started
           </button>
         </div>
