@@ -1,5 +1,4 @@
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import BottomNav from "./components/BottomNav";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ScanProduce from "./pages/ScanPage";
@@ -22,7 +21,6 @@ function App() {
           <Route path="*" element={<Navigate to="/" />} />{" "}
           {/* Redirect all other routes to home */}
         </Routes>
-        <Footer />
         <BottomNav />
       </div>
     </Router>

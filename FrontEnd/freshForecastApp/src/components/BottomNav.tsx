@@ -17,7 +17,7 @@ const BottomNav = () => {
       </div>
       <div className="flex flex-col items-center" onClick={() => navigate("/my-produce")}>
         <AiOutlineFileText size={24} />
-        <span>My Produce</span>
+        <span>Recipes</span>
       </div>
     </div>
   );
