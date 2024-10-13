@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <div className="flex justify-center items-center">
           <img
-            className="rounded-lg border-2 border-[#2A3340] mx-auto my-4 object-cover"
+            className="rounded-3xl border-4 border-[#2A3340] mx-auto my-4 object-cover"
             src={FreshProduceImage}
             alt="Fresh Produce"
           />

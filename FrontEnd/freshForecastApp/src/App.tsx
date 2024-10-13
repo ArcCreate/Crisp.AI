@@ -16,6 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/FreshForecast" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/scan" element={<ScanProduce />} />
           <Route path="/my-produce" element={<MyProduce />} />
           <Route path="*" element={<Navigate to="/" />} />{" "}

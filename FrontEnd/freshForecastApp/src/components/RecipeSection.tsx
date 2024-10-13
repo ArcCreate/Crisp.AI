@@ -1,5 +1,5 @@
 import { ReactTyped } from "react-typed"; // Ensure correct import
-import FreshProduceImage from "../assets/pic1.jpg"; // Ensure you have the correct path for the image
+import FreshProduceImage from "../assets/image.png"; // Ensure you have the correct path for the image
 
 const ProduceSection = () => {
   return (
@@ -10,7 +10,7 @@ const ProduceSection = () => {
         </h1>
         <div className="flex justify-center items-center">
           <img
-            className="rounded-lg border-2 border-[#2A3340] mx-auto my-4 object-cover"
+            className="rounded-3xl border-4 border-white mx-auto my-4 object-cover"
             src={FreshProduceImage}
             alt="Fresh Produce"
           />
