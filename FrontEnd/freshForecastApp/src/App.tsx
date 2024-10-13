@@ -1,22 +1,25 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import RecipeSection from "./components/RecipeSection";
 import Footer from "./components/Footer";
 import BottomNav from "./components/BottomNav";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ScanProduce from "./pages/ScanPage";
 import MyProduce from "./pages/MyProduce";
 import Home from "./pages/HomePage";
+import {Navigate} from "react-router-dom";
+import './index.css';
+
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar /> 
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/FreshForecast" element={<Home />} />
           <Route path="/scan" element={<ScanProduce />} />
           <Route path="/my-produce" element={<MyProduce />} />
+          <Route path="*" element={<Navigate to="/" />} />{" "}
+          {/* Redirect all other routes to home */}
         </Routes>
         <Footer />
         <BottomNav />

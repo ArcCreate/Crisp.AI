@@ -19,7 +19,7 @@ const ProduceSection = () => {
           Get notified when your produce is
           <div>
             <ReactTyped
-              className="font-bold text-[#EC8516]"
+              className="font-bold text-[#B33F62]"
               strings={["ROTTEN", "FRESH", "UNRIPED"]}
               typeSpeed={70}
               backSpeed={60}
@@ -28,7 +28,7 @@ const ProduceSection = () => {
           </div>
         </p>
 
-        <button className="bg-[#2A3340] text-[#EC8516] w-[200px] rounded-md font-medium my-3 mx-auto py-3">
+        <button className="bg-[#2A3340] text-[#ffffff] w-[200px] rounded-md font-medium my-3 mx-auto py-3">
           My Produce
         </button>
       </div>

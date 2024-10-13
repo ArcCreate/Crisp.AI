@@ -1,17 +1,15 @@
-import React from "react";
-
 const Navbar = () => {
   return (
     <div
-      className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white"
+      className="flex justify-between items-center h-16 max-w-[1240px] mx-auto px-2 text-white" // Changed h-24 to h-16 and px-4 to px-2
       style={{
         backgroundColor: "var(--verde)",
       }}
     >
       <h1
-        className="text-3xl font-bold mx-auto" // Center the title with mx-auto
+        className="text-3xl font-bold mx-auto" // Optional: adjust the font size if needed
         style={{
-          color: "var(--whitish)",
+          color: "var(--blackish)",
         }}
       >
         Fresh Forecast

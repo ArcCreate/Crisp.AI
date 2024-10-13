@@ -1,4 +1,4 @@
-import { FaFacebookSquare, FaGithubSquare, FaInstagram, FaTwitterSquare } from 'react-icons/fa';
+
 
 const Footer = () => (
   <div className='max-w-[1240px] mx-auto pt-0 pb-8 px-4 grid lg:grid-cols-3 gap-4 text-white'>
