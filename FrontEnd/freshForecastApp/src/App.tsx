@@ -13,14 +13,16 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Routes>
-          <Route path="/FreshForecast" element={<Home />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/scan" element={<ScanProduce />} />
-          <Route path="/my-produce" element={<MyProduce />} />
-          <Route path="*" element={<Navigate to="/" />} />{" "}
-          {/* Redirect all other routes to home */}
-        </Routes>
+        <div className="pt-16"> {/* Adjust padding top to match the height of the navbar */}
+          <Routes>
+            <Route path="/FreshForecast" element={<Home />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/scan" element={<ScanProduce />} />
+            <Route path="/my-produce" element={<MyProduce />} />
+            <Route path="*" element={<Navigate to="/" />} />{" "}
+            {/* Redirect all other routes to home */}
+          </Routes>
+        </div>
         <BottomNav />
       </div>
     </Router>

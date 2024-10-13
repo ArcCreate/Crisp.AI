@@ -5,7 +5,7 @@ const ProduceSection = () => {
   return (
     <div className="w-full bg-black py-4 px-4 text-white">
       <div className="max-w-[1240px] mx-auto text-center">
-        <h1 className="md:text-6xl sm:text-5xl text-4xl font-bold pb-2 pt-6 text-[#8C8849]">
+        <h1 className="md:text-6xl sm:text-5xl text-4xl font-bold pb-2 pt-10 text-[#8C8849]">
           MONITOR YOUR PRODUCE
         </h1>
         <div className="flex justify-center items-center">

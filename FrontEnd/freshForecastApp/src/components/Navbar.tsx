@@ -1,13 +1,13 @@
 const Navbar = () => {
   return (
     <div
-      className="flex justify-between items-center h-16 max-w-[1240px] mx-auto px-2 text-white" // Changed h-24 to h-16 and px-4 to px-2
+      className="flex justify-between items-center h-16 max-w-[1240px] mx-auto px-2 text-white fixed top-0 left-0 right-0 z-50" // Fixed positioning and z-index for stacking
       style={{
         backgroundColor: "var(--verde)",
       }}
     >
       <h1
-        className="text-3xl font-bold mx-auto" // Optional: adjust the font size if needed
+        className="text-3xl font-bold mx-auto"
         style={{
           color: "var(--blackish)",
         }}
