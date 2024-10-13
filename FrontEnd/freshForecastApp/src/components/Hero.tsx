@@ -1,5 +1,4 @@
 import FreshProduceImage from "../assets/pic1.jpg";
-import { ReactTyped } from "react-typed"; 
 
 const Hero = () => {
   return (

@@ -1,6 +1,4 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import RecipeSection from "./components/RecipeSection";
 import Footer from "./components/Footer";
 import BottomNav from "./components/BottomNav";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
