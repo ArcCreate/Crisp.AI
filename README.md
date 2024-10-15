@@ -15,13 +15,36 @@
 - [Setup Instructions](#setup-instructions)
 - [Demo](#demo)
 
-## Inspiration
-Our project was inspired by the growing issue of food waste, particularly with produce. By providing a simple, handheld solution, we aim to help users reduce produce waste by understanding the freshness of their food and offering recipes that use ingredients based on their remaining lifespan.
+# Crisp.AI
 
-## Features
-- **Produce Freshness Detection**: Take a picture of a fruit, and Crisp.AI will classify it and provide a freshness metric.
-- **Recipe Suggestions**: Based on the freshness score, the app generates recipes to use up produce before it spoils.
-- **Sustainability**: Promotes conscious consumption and reduces food waste in households.
+**Crisp.AI**: Helping you reduce food waste with AI-driven freshness detection. Snap a picture of your fruit, get a freshness score, and discover recipes tailored to your ingredients.
+
+## About the Project
+Crisp.AI was inspired by the growing issue of food waste, especially with perishable produce. Our goal is to provide users with a simple tool to evaluate the freshness of their fruits and offer recipes that utilize those ingredients before they spoil. By integrating image recognition and machine learning, Crisp.AI makes sustainability easier for everyday users.
+
+### What it Does
+- **Freshness Detection**: Upload or snap a picture of a fruit, and Crisp.AI will classify it and provide a freshness score, allowing you to gauge how close it is to spoiling.
+- **Recipe Suggestions**: Based on the current freshness level, Crisp.AI suggests recipes so you can use up your produce before it goes to waste.
+- **Sustainability**: By helping users track the condition of their fruits and guiding them with tailored recipes, Crisp.AI helps reduce household food waste.
+
+### Demo
+Check out our demo video to see Crisp.AI in action!
+
+[![Watch the demo](https://img.youtube.com/vi/your_video_id/0.jpg)](https://www.youtube.com/watch?v=your_video_id)
+
+You can also try it live at our [website](https://arccreate.github.io/crispAI).
+
+---
+
+## Challenges and Accomplishments
+
+### Struggles
+One of our main challenges was integrating AWS services like SageMaker and S3 with the frontend. Cloud deployment proved tricky due to scattered documentation and configuration issues with image processing in real time. Additionally, deploying our model to run on devices other than the local environment presented some issues with compatibility and resource allocation.
+
+### Accomplishments
+Despite these challenges, we succeeded in building an accurate classification model with a high average accuracy, capable of producing reliable freshness scores. We're also proud of the clean, intuitive UI we built using React and Tailwind CSS, which makes the app both functional and user-friendly.
+
+---
 
 ## Tech Stack
 ### Frontend
@@ -94,25 +117,12 @@ Our project was inspired by the growing issue of food waste, particularly with p
 - **Why Amazon DynamoDB?**
   DynamoDB is a NoSQL database that provides fast and flexible database services. We used it to store user data, such as previous freshness scores and generated recipes. This allows users to revisit their previous assessments and recipes, adding a personalized touch to the app.
 
-## Challenges
-- **Cloud Integration**: Linking AWS SageMaker, S3 buckets, and the frontend was challenging due to complex documentation and varied use cases.
-- **Deployment**: Our demo currently works locally, but we encountered difficulties deploying the AI model in a cloud environment for broader use.
-
-## Accomplishments
-- Successfully implemented a classification model with high accuracy.
-- Developed a reliable algorithm to compute a freshness score for produce.
-- Built a clean and functional UI that balances usability and intuitive design.
-
-## What We Learned
-- We faced and overcame obstacles in deploying image recognition models to the cloud, managing training times, iterating on model accuracy, and better understanding AWS services for web applications.
-
-## Future Plans
-We envision expanding **Crisp.AI** for use beyond individual consumers, including:
-- **Supply Chain Tracking**: Helping retailers prioritize inventory, donate produce nearing spoilage, or discard items past their prime.
-- **Batch Processing**: Scalability for larger-scale operations in retail environments.
+---
 
 ## Setup Instructions
+
 To run the project locally:
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/arccreate/crispAI.git
