@@ -30,9 +30,9 @@ Crisp.AI was inspired by the growing issue of food waste, especially with perish
 ### Demo
 Check out our demo video to see Crisp.AI in action!
 
-[![Watch the demo]([https://img.youtube.com/vi/your_video_id/0.jpg)](https://www.youtube.com/watch?v=your_video_id)](https://youtube.com/shorts/nlGlnOS8-Vg?feature=share)
+[![Watch the demo](https://img.youtube.com/vi/nlGlnOS8-Vg/0.jpg)](https://youtube.com/shorts/nlGlnOS8-Vg?feature=share)
 
-You can also try it live at our [website](https://arccreate.github.io/crispAI).
+You can also try it live at our [website](https://arccreate.github.io/FreshForecast) (Designed for Mobile usage. Not fully responsiveto view on Desktop)
 
 ---
 
